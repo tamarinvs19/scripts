@@ -13,3 +13,7 @@ cp ~/.zshrc zsh/zshrc || echo "Can not copy zsh config"
 cp ~/.oh-my-zsh/custom/themes/green.zsh-theme zsh/green.zsh-theme || echo "Can not copy oh-my-zsh config"
 cp ~/.config/rofi/config rofi/config || echo "Can not copy rofi config"
 
+git pull
+git add .
+git commit -m "Update ${date}"
+git push
