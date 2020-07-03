@@ -15,5 +15,5 @@ cp ~/.config/rofi/config rofi/config || echo "Can not copy rofi config"
 
 git pull
 git add .
-git commit -m "Update ${date}"
+git commit -m "Update $(date)"
 git push
