@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sleep 6000
+sleep 10
 poweroff
