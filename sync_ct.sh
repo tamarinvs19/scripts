@@ -10,6 +10,7 @@ cp lec_5.tex ~/theory_university/complexity_theory/semester_3/
 cp lec_6.tex ~/theory_university/complexity_theory/semester_3/
 cp lec_7.tex ~/theory_university/complexity_theory/semester_3/
 cp master.tex ~/theory_university/complexity_theory/semester_3/
+cp preamble.tex ~/theory_university/complexity_theory/semester_3/
 
 cd ~/theory_university/complexity_theory/semester_3/
 
@@ -35,3 +36,4 @@ rm master.tex
 rm preamble.tex
 rm -rf stix2font
 
+rm $1
