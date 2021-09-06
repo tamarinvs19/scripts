@@ -5,7 +5,7 @@ then
     output_file=$1
     list=$2
     echo $list $output_file
-    ffmpeg -f concat -i files -c:v libx264 -ac 2 -c:a aac -strict -2 -b:a 128k -crf 28 -r 24 video.mp4
+    ffmpeg -f concat -i files -c:v libx264 -ac 2 -c:a aac -strict -2 -b:a 128k -crf 28 -r 24 $output_file
 else
     echo "Usage: ./compress.sh <OUTPUT_FILE> <LIST FILE>"
     echo Format of LIST_FILE:
